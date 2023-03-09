@@ -37,4 +37,4 @@ browser.$("[id='uploadPicture']").value("C:\\Users\\David Pol\\WORKSPACE\\GITHUB
 //Current
 //State And City
 
-//browser.quit()
+browser.quit()
