@@ -2,6 +2,7 @@ package test.groovy.Implicit
 
 
 import org.openqa.selenium.chrome.ChromeDriver
+import org.openqa.selenium.firefox.FirefoxDriver
 
 waiting {
     timeout=2
@@ -21,12 +22,12 @@ waiting {
 atCheckWaiting = "slow"
 atCheckWaiting = true
 
-driver ={ new ChromeDriver() }
+driver ={ new FirefoxDriver() }
 
 environments {
 
-    chrome {
-        driver = {new ChromeDriver()}
+    firefox {
+        driver = {new FirefoxDriver()}
     }
 
 }

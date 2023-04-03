@@ -4,6 +4,7 @@ import org.openqa.selenium.chrome.ChromeDriver
 import org.openqa.selenium.chrome.ChromeOptions
 
 import org.openqa.selenium.firefox.FirefoxDriver
+import org.openqa.selenium.firefox.FirefoxOptions
 
 
 waiting {
@@ -25,17 +26,17 @@ atCheckWaiting = "slow"
 atCheckWaiting = true
 
 driver = {
-    ChromeOptions options = new ChromeOptions()
+    FirefoxOptions options = new FirefoxOptions()
     options.addArguments("--headless") // Uncomment this line if you want to run the test in headless mode
-    new ChromeDriver(options)
+    new FirefoxDriver(options)
 }
 
 environments {
-    chrome {
+    firefox {
         driver = {
-            ChromeOptions options = new ChromeOptions()
+            FirefoxOptions options = new FirefoxDriver()
             options.addArguments("--headless") // Uncomment this line if you want to run the test in headless mode
-            new ChromeDriver(options)
+            new FirefoxDriver(options)
         }
     }
 }
