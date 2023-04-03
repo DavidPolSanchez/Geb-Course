@@ -1,9 +1,7 @@
-package test.Implicit
+package test.groovy.Implicit
 
 
 import org.openqa.selenium.chrome.ChromeDriver
-import org.openqa.selenium.firefox.FirefoxDriver
-
 
 waiting {
     timeout=2

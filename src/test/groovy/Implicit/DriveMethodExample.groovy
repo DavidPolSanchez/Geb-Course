@@ -1,4 +1,4 @@
-package test.Implicit
+package test.groovy.Implicit
 
 import geb.Browser
 
