@@ -1,10 +1,11 @@
 package test.Simple
 
 import geb.Browser
-import org.openqa.selenium.chrome.ChromeDriver
+import org.openqa.selenium.firefox.FirefoxDriver
 
-def browser = new Browser(driver : new ChromeDriver())
-            //new Browser(driver : new FirefoxDriver())
+
+def browser = new Browser(driver : new FirefoxDriver())
+            //new Browser(driver : new ChromeDriver())
             //new Browser(driver : new SafariDriver())
             //new Browser(driver : new EdgeDriver()))
             //new Browser(driver : new InternetExplorerDriver())

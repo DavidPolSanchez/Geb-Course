@@ -7,7 +7,7 @@ import org.openqa.selenium.firefox.FirefoxDriver
 
 class MyGebTest extends GebSpec {
 
-    def "Search for a product on Amazon"() {
+    def "interac with the nav"() {
         def browser = new Browser(driver: new FirefoxDriver())
         given:
         def expected ="Elements"

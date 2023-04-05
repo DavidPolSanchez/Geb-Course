@@ -42,9 +42,6 @@
           <scope>test</scope>
       </dependency>
 
-
-
- 
  <!-- Geb-Spock Support -->
       <!-- https://mvnrepository.com/artifact/org.gebish/geb-spock -->
       <dependency>

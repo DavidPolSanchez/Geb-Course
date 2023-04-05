@@ -1,9 +1,9 @@
 package test.Simple
 
 import geb.Browser
-import org.openqa.selenium.chrome.ChromeDriver
+import org.openqa.selenium.firefox.FirefoxDriver
 
-def browser = new Browser(driver : new ChromeDriver())
+def browser = new Browser(driver : new FirefoxDriver())
             //new Browser(driver : new FirefoxDriver())
             //new Browser(driver : new SafariDriver())
             //new Browser(driver : new EdgeDriver()))
@@ -32,4 +32,4 @@ browser.$("[id='uploadPicture']").value("C:\\Users\\David Pol\\WORKSPACE\\GITHUB
 //Current
 //State And City
 
-browser.quit()
+//browser.quit()
